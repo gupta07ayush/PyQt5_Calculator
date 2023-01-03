@@ -15,3 +15,6 @@ class Window(QMainWindow):
 
         # setting title
         self.setWindowTitle("Python Calculator")
+
+        # s setting geometry
+        self.setGeometry(100, 100, 360, 350)
