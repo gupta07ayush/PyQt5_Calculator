@@ -16,5 +16,11 @@ class Window(QMainWindow):
         # setting title
         self.setWindowTitle("Python Calculator")
 
-        # s setting geometry
+        # set window geometry
         self.setGeometry(100, 100, 360, 350)
+
+        # calling method
+        self.UiComponents()
+
+        # show all widgets
+        self.show()
