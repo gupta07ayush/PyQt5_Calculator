@@ -30,3 +30,8 @@ class Window(QMainWindow):
 
         # creating a label
         self.label = QLabel(self)
+
+        # setting geometry to the label
+        self.label.setGeometry(5, 5, 350, 70)
+
+        #
