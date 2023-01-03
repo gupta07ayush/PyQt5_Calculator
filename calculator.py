@@ -24,3 +24,9 @@ class Window(QMainWindow):
 
         # show all widgets
         self.show()
+
+    # Method for widgets
+    def UiComponents(self):
+
+        # creating a label
+        self.label = QLabel(self)
