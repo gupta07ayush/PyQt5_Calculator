@@ -56,6 +56,10 @@ class Window(QMainWindow):
         # setting geometry
         push1.setGeometry(5, 150, 80, 40)
 
-        # creating push button
+        # creating push button 2
         push2 = QPushButton("2", self)
         push2.setGeometry(95, 150, 80, 40)
+
+        # creating push button 3
+        push3 = QPushButton('3', self)
+        push3.setGeometry(185, 150, 80, 40)
