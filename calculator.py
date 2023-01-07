@@ -49,3 +49,6 @@ class Window(QMainWindow):
 
         # setting font
         self.label.setFont(QFont('Arial', 15))
+
+        # adding number button to the screen creating a push button
+        push1 = QPushButton('1', self)
