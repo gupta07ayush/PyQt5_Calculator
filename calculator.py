@@ -43,3 +43,6 @@ class Window(QMainWindow):
                                  "border:4px sold black;"
                                  'background:white;'
                                  '}')
+
+        # setting alignment to the label
+        self.label.setAlignment(Qt.Alignment)
