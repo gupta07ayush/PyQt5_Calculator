@@ -46,3 +46,6 @@ class Window(QMainWindow):
 
         # setting alignment to the label
         self.label.setAlignment(Qt.Alignment)
+
+        # setting font
+        self.label.setFont(QFont('Arial', 15))
