@@ -52,3 +52,6 @@ class Window(QMainWindow):
 
         # adding number button to the screen creating a push button
         push1 = QPushButton('1', self)
+
+        # setting geometry
+        push1.setGeometry(5, 150, 80, 40)
