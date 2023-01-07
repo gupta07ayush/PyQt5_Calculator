@@ -34,4 +34,12 @@ class Window(QMainWindow):
         # setting geometry to the label
         self.label.setGeometry(5, 5, 350, 70)
 
-        #
+        # creating label multi line
+        self.label.setWordWrap(True)
+
+        # setting style sheet to the label
+        self.label.setStyleSheet("QLabel"
+                                 "{"
+                                 "border:4px sold black;"
+                                 'background:white;'
+                                 '}')
