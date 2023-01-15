@@ -84,4 +84,10 @@ class Window(QMainWindow):
         push8 = QPushButton('8', self)
         push8.setGeometry(95, 250, 80, 40)
 
-        #
+        # creating push button 9
+        push9 = QPushButton('9', self)
+        push9.setGeometry(185, 250, 80, 40)
+
+        # creating push button 0
+        push0 = QPushButton('4', self)
+        push0.setGeometry(5, 300, 80, 40)
