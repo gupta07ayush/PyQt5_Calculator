@@ -91,3 +91,7 @@ class Window(QMainWindow):
         # creating push button 0
         push0 = QPushButton('4', self)
         push0.setGeometry(5, 300, 80, 40)
+
+        # equal button
+        push_equal = QPushButton("=", self)
+        push_equal.setGeometry(275, 300, 80, 40)
