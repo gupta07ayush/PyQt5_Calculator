@@ -95,3 +95,8 @@ class Window(QMainWindow):
         # equal button
         push_equal = QPushButton("=", self)
         push_equal.setGeometry(275, 300, 80, 40)
+
+        # adding equal button a color effect
+        c_effect = QGraphicsColorizeEffect()
+        c_effect.setColor(Qt.blue)
+        push_equal.setGraphicsEffect(c_effect)
