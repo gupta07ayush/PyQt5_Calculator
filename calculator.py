@@ -108,3 +108,7 @@ class Window(QMainWindow):
         # creating push button -
         push_minus = QPushButton("-", self)
         push_minus.setGeometry(275, 200, 80, 40)
+
+        # creating push button *
+        push_mul = QPushButton("*", self)
+        push_mul.setGeometry(275, 150, 80, 40)
