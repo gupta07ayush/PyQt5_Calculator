@@ -100,3 +100,7 @@ class Window(QMainWindow):
         c_effect = QGraphicsColorizeEffect()
         c_effect.setColor(Qt.blue)
         push_equal.setGraphicsEffect(c_effect)
+
+        # creating push button +
+        push_plus = QPushButton("+", self)
+        push_plus.setGeometry(275, 250, 80, 40)
