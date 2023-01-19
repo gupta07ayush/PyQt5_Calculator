@@ -138,3 +138,14 @@ class Window(QMainWindow):
         push_point.clicked.connect(self.action_point)
         push_clear.clicked.connect(self.action_clear)
         push_del.clicked.connect(self.action_del)
+
+        # adding action to each of the number button
+        push1.clicked.connect(self.action1)
+        push2.clicked.connect(self.action2)
+        push3.clicked.connect(self.action3)
+        push4.clicked.connect(self.action4)
+        push5.clicked.connect(self.action5)
+        push6.clicked.connect(self.action6)
+        push7.clicked.connect(self.action7)
+        push8.clicked.connect(self.action8)
+        push9.clicked.connect(self.action9)
