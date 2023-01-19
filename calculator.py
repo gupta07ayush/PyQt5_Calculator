@@ -128,3 +128,13 @@ class Window(QMainWindow):
         # creating push button Del
         push_del = QPushButton("Del", self)
         push_del.setGeometry(210, 100, 140, 40)
+
+        # adding action to each of the button
+        push_minus.clicked.connect(self.action_minus)
+        push_equal.clicked.connect(self.action_equal)
+        push_div.clicked.connect(self.action_div)
+        push_mul.clicked.connect(self.action_mul)
+        push_plus.clicked.connect(self.action_plus)
+        push_point.clicked.connect(self.action_point)
+        push_clear.clicked.connect(self.action_clear)
+        push_del.clicked.connect(self.action_del)
