@@ -116,3 +116,7 @@ class Window(QMainWindow):
         # creating push button /
         push_div = QPushButton("/", self)
         push_div.setGeometry(185, 300, 80, 40)
+
+        # creating push button .
+        push_point = QPushButton(".", self)
+        push_point.setGeometry(95, 300, 80, 40)
