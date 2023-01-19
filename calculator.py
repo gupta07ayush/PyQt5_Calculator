@@ -125,4 +125,6 @@ class Window(QMainWindow):
         push_clear = QPushButton("Clear", self)
         push_clear.setGeometry(5, 100, 200, 40)
 
-        #
+        # creating push button Del
+        push_del = QPushButton("Del", self)
+        push_del.setGeometry(210, 100, 140, 40)
