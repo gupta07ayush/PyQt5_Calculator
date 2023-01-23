@@ -173,4 +173,9 @@ class Window(QMainWindow):
         def action_minus(self):
             # appending label text
             text = self.label.text()
-            self.label.setText(text - " - ")
+            self.label.setText(text + " - ")
+
+        def action_mul(self):
+            # appending label text
+            text = self.label.text()
+            self.label.setText(text + " * ")
