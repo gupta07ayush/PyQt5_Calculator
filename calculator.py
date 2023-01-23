@@ -164,3 +164,8 @@ class Window(QMainWindow):
         except:
             # setting text to the label
             self.label.setText("Wrong Input")
+
+        def action_plus(self):
+            # appending label text
+            text = self.label.text()
+            self.label.setText(text + "+")
