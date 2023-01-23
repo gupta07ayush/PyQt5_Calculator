@@ -169,3 +169,8 @@ class Window(QMainWindow):
             # appending label text
             text = self.label.text()
             self.label.setText(text + "+")
+
+        def action_minus(self):
+            # appending label text
+            text = self.label.text()
+            self.label.setText(text - " - ")
