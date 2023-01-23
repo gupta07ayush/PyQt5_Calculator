@@ -149,3 +149,18 @@ class Window(QMainWindow):
         push7.clicked.connect(self.action7)
         push8.clicked.connect(self.action8)
         push9.clicked.connect(self.action9)
+
+    def action_equal(self):
+        # get the label text
+        equation = self.label.text()
+
+        try:
+            # getting the answer
+            ans = eval(equation)
+
+            # setting text to the label
+            self.label.setText(str(ans))
+
+        except:
+            # setting text to the label
+            self.label.setText("Wrong Input")
