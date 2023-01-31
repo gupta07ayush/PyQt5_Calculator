@@ -179,3 +179,8 @@ class Window(QMainWindow):
             # appending label text
             text = self.label.text()
             self.label.setText(text + " * ")
+
+        def action_div(self):
+            # appending label text
+            text = self.label.text()
+            self.label.setText(text + " / ")
