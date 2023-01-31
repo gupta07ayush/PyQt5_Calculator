@@ -209,3 +209,8 @@ class Window(QMainWindow):
             # appending label text
             text = self.label.text()
             self.label.setText(text + "3")
+
+        def action4(self):
+            # appending label text
+            text = self.label.text()
+            self.label.setText(text + "4")
