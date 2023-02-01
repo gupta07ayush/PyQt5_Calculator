@@ -243,3 +243,9 @@ class Window(QMainWindow):
         def action_clear(self):
             # clearing the label text
             self.label.setText("")
+
+        def action_del(self):
+            # clearing a single digit
+            text = self.label.text()
+            print(text[:len(text)-1])
+            self.label.setText(text[:len(text)-1])
