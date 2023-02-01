@@ -249,3 +249,7 @@ class Window(QMainWindow):
             text = self.label.text()
             print(text[:len(text)-1])
             self.label.setText(text[:len(text)-1])
+
+
+# create pyqt5 app
+App = QApplication(sys.argv)
