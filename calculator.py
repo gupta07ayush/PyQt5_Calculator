@@ -239,3 +239,7 @@ class Window(QMainWindow):
             # appending label text
             text = self.label.text()
             self.label.setText(text + "9")
+
+        def action_clear(self):
+            # clearing the label text
+            self.label.setText("")
