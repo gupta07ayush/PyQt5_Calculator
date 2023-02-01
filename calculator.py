@@ -256,3 +256,6 @@ App = QApplication(sys.argv)
 
 # create the instance of our window
 window = Window()
+
+# start the app
+sys.exit(App.exec())
