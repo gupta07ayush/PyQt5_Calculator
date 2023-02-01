@@ -253,3 +253,6 @@ class Window(QMainWindow):
 
 # create pyqt5 app
 App = QApplication(sys.argv)
+
+# create the instance of our window
+window = Window()
