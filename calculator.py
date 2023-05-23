@@ -45,7 +45,7 @@ class Window(QMainWindow):
                                  '}')
 
         # setting alignment to the label
-        self.label.setAlignment(Qt.Alignment)
+        self.label.setAlignment(Qt.AlignRight)
 
         # setting font
         self.label.setFont(QFont('Arial', 15))
@@ -165,90 +165,90 @@ class Window(QMainWindow):
             # setting text to the label
             self.label.setText("Wrong Input")
 
-        def action_plus(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + "+")
+    def action_plus(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + "+")
 
-        def action_minus(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + " - ")
+    def action_minus(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + " - ")
 
-        def action_mul(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + " * ")
+    def action_mul(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + " * ")
 
-        def action_div(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + " / ")
+    def action_div(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + " / ")
 
-        def action_point(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + ".")
+    def action_point(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + ".")
 
-        def action0(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + "0")
+    def action0(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + "0")
 
-        def action1(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + "1")
+    def action1(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + "1")
 
-        def action2(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + "2")
+    def action2(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + "2")
 
-        def action3(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + "3")
+    def action3(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + "3")
 
-        def action4(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + "4")
+    def action4(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + "4")
 
-        def action5(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + "5")
+    def action5(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + "5")
 
-        def action6(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + "6")
+    def action6(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + "6")
 
-        def action7(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + "7")
+    def action7(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + "7")
 
-        def action8(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + "8")
+    def action8(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + "8")
 
-        def action9(self):
-            # appending label text
-            text = self.label.text()
-            self.label.setText(text + "9")
+    def action9(self):
+        # appending label text
+        text = self.label.text()
+        self.label.setText(text + "9")
 
-        def action_clear(self):
-            # clearing the label text
-            self.label.setText("")
+    def action_clear(self):
+        # clearing the label text
+        self.label.setText("")
 
-        def action_del(self):
-            # clearing a single digit
-            text = self.label.text()
-            print(text[:len(text)-1])
-            self.label.setText(text[:len(text)-1])
+    def action_del(self):
+        # clearing a single digit
+        text = self.label.text()
+        print(text[:len(text)-1])
+        self.label.setText(text[:len(text)-1])
 
 
 # create pyqt5 app
