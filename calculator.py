@@ -4,7 +4,6 @@ from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-
 import sys
 
 
@@ -257,5 +256,5 @@ App = QApplication(sys.argv)
 # create the instance of our window
 window = Window()
 
-# start the app
+# starting the pyqt5 app
 sys.exit(App.exec())
